@@ -11,19 +11,19 @@ class _BotCommands:
         self.QbLeechCommand = [f'qbleech2{CMD_SUFFIX}', f'ql2{CMD_SUFFIX}']
         self.YtdlLeechCommand = [f'ytdlleech2{CMD_SUFFIX}', f'yl2{CMD_SUFFIX}']
         if config_dict['SHOW_EXTRA_CMDS']:
-            self.MirrorCommand.extend([f'unzipmirror{CMD_SUFFIX}', f'uzm{CMD_SUFFIX}', f'zipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}'])
-            self.QbMirrorCommand.extend([f'qbunzipmirror{CMD_SUFFIX}', f'quzm{CMD_SUFFIX}', f'qbzipmirror{CMD_SUFFIX}', f'qzm{CMD_SUFFIX}'])
-            self.YtdlCommand.extend([f'ytdlzip{CMD_SUFFIX}', f'yz{CMD_SUFFIX}'])
-            self.LeechCommand.extend([f'unzipleech{CMD_SUFFIX}', f'uzl{CMD_SUFFIX}', f'zipleech{CMD_SUFFIX}', f'zl{CMD_SUFFIX}'])
-            self.QbLeechCommand.extend([f'qbunzipleech{CMD_SUFFIX}', f'quzl{CMD_SUFFIX}', f'qbzipleech{CMD_SUFFIX}', f'qzl{CMD_SUFFIX}'])
-            self.YtdlLeechCommand.extend([f'ytdlzipleech{CMD_SUFFIX}', f'yzl{CMD_SUFFIX}'])
-        self.CloneCommand = [f'clone{CMD_SUFFIX}', f'c{CMD_SUFFIX}']
-        self.CountCommand = f'count{CMD_SUFFIX}'
-        self.DeleteCommand = f'del{CMD_SUFFIX}'
-        self.CancelMirror = f'cancel{CMD_SUFFIX}'
-        self.CancelAllCommand = [f'cancelall{CMD_SUFFIX}', 'cancellallbot']
-        self.ListCommand = f'list{CMD_SUFFIX}'
-        self.SearchCommand = f'search{CMD_SUFFIX}'
+            self.MirrorCommand.extend([f'unzipmirror2{CMD_SUFFIX}', f'uzm2{CMD_SUFFIX}', f'zipmirror2{CMD_SUFFIX}', f'zm2{CMD_SUFFIX}'])
+            self.QbMirrorCommand.extend([f'qbunzipmirror2{CMD_SUFFIX}', f'quzm2{CMD_SUFFIX}', f'qbzipmirror2{CMD_SUFFIX}', f'qzm2{CMD_SUFFIX}'])
+            self.YtdlCommand.extend([f'ytdlzip2{CMD_SUFFIX}', f'yz2{CMD_SUFFIX}'])
+            self.LeechCommand.extend([f'unzipleech2{CMD_SUFFIX}', f'uzl2{CMD_SUFFIX}', f'zipleech2{CMD_SUFFIX}', f'zl2{CMD_SUFFIX}'])
+            self.QbLeechCommand.extend([f'qbunzipleech2{CMD_SUFFIX}', f'quzl2{CMD_SUFFIX}', f'qbzipleech2{CMD_SUFFIX}', f'qzl2{CMD_SUFFIX}'])
+            self.YtdlLeechCommand.extend([f'ytdlzipleech2{CMD_SUFFIX}', f'yzl2{CMD_SUFFIX}'])
+        self.CloneCommand = [f'clone2{CMD_SUFFIX}', f'c2{CMD_SUFFIX}']
+        self.CountCommand = f'count2{CMD_SUFFIX}'
+        self.DeleteCommand = f'del2{CMD_SUFFIX}'
+        self.CancelMirror = f'cancel2{CMD_SUFFIX}'
+        self.CancelAllCommand = [f'cancelall2{CMD_SUFFIX}', 'cancellallbot2']
+        self.ListCommand = f'list2{CMD_SUFFIX}'
+        self.SearchCommand = f'search2{CMD_SUFFIX}'
         self.StatusCommand = [f'status{CMD_SUFFIX}', f's{CMD_SUFFIX}', 'statusall']
         self.UsersCommand = f'users{CMD_SUFFIX}'
         self.AuthorizeCommand = [f'authorize{CMD_SUFFIX}', f'a{CMD_SUFFIX}']
